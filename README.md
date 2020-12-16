@@ -14,6 +14,10 @@ I used the lastest stable release: https://chromedriver.chromium.org/
 
 **Make sure to set PATH variable in the HealthCheck_Github.py python script as the directory to your webdriver. I put it in my Applications folder**
 
+- Set Stanford Two-factor Authentication to automatically use duo-mobile
+
+![](images/duomobile.png)
+
 ## How to use
 
 Clone the repository in terminal
