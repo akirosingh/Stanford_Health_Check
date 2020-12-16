@@ -24,9 +24,10 @@ Clone the repository in terminal
 ```
 git clone https://github.com/akirosingh/Stanford_Health_Check
 cd Stanford_Health_Check
-python3 HealthCheck_Github.py <SUNetID> <password> <building>
+python3 HealthCheck_Github.py 'SUNetID' 'password' 'building'
 ```
-The python script has three arguments your sunetid, password, and the building you expect to attend today. It will open you Stanford Health check tool leading to a two-factor authentication action. **If you don't have this default to duo-mobile it will get stuck here and won't work**. The script gives you 30 seconds to two-factor authenticate then it will update the date you last were on campus, add the buildings you expect to enter and submit the health check. 
+
+The python script has three arguments your sunetid, password, and the building you expect to attend today. Enter these as strings example 'SUNETID'. It will open you Stanford Health check tool leading to a two-factor authentication action. **If you don't have this default to duo-mobile it will get stuck here and won't work**. The script gives you 30 seconds to two-factor authenticate then it will update the date you last were on campus, add the buildings you expect to enter and submit the health check. 
 
 ---
 
