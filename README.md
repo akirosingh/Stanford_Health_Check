@@ -26,5 +26,6 @@ The python script has three arguments your sunetid, password, and the building y
 
 ---
 
-TODO: Add to google cloud to run on a schedule when my alarm clock goes off.
+TODO: Add to google cloud to run on a schedule when my alarm clock goes off 
+
 TODO: Update negative covid test date as an optional argument
