@@ -12,14 +12,14 @@ import itertools
 from sys import argv
 PATH = "/Applications/chromedriver"
 
-SUnet, password, building = argv
+script, SUnet, password, building = argv
 
 
 # In[46]:
 
 
 # Create driver
-print('Creating webdriver...')
+print('C```````                                                                                                                                                                                                     reating webdriver...')
 driver = webdriver.Chrome(PATH)
 
 
