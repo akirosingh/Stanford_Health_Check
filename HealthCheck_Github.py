@@ -19,7 +19,7 @@ script, SUnet, password, building = argv
 
 
 # Create driver
-print('C```````                                                                                                                                                                                                     reating webdriver...')
+print('Creating webdriver...')
 driver = webdriver.Chrome(PATH)
 
 
