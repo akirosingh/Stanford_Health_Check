@@ -40,7 +40,7 @@ driver.get("https://healthcheck.stanford.edu/Shibboleth.sso/login-stanford?targe
 
 # In[5]:
 
-
+time.sleep(5)
 driver.find_element(By.ID, 'username').send_keys(SUnet)
 
 
