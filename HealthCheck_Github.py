@@ -83,8 +83,7 @@ driver.find_element_by_xpath(".//*[@id='date_last_on_campus']").send_keys(date[0
 
 
 # In[12]:
-
-
+driver.find_element_by_xpath(".//*[@for='today_campus_yes']").click()
 driver.find_element_by_xpath(".//*[@id='today_building_1']").send_keys(building)
 time.sleep(5)
 
@@ -104,7 +103,7 @@ driver.find_element_by_xpath(".//*[@id='today_building_1']").send_keys(Keys.ENTE
 # In[15]:
 
 
-driver.find_element_by_xpath(".//*[@class='form-check-label mx-auto mt-0']").click()
+driver.find_element_by_xpath(".//*[@for='attestation']").click()
 
 
 # In[16]:
